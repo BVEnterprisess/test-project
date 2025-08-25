@@ -11,8 +11,7 @@ param(
     [switch]$Push = $false,
     [switch]$Force = $false,
     [switch]$Rebase = $true,
-    [switch]$DeleteSource = $false,
-    [switch]$Verbose = $false
+    [switch]$DeleteSource = $false
 )
 
 Write-Host "🤖 Git Automation Master Script" -ForegroundColor Cyan
