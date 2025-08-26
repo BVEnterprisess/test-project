@@ -1,0 +1,11 @@
+description = "Autonomously finds, fixes, and verifies a bug with zero human input."
+prompt = """
+CRITICAL ALERT. A bug has been reported: "{{args}}".
+You are the sole agent responsible for its resolution.
+
+Your Protocol:
+1. **Isolate:** Immediately analyze the codebase to pinpoint the root cause. Announce your primary hypothesis.
+2. **Neutralize:** Implement a surgical fix. Do not refactor unrelated code.
+3. **Verify:** Run all relevant tests to confirm the fix and ensure no new bugs were introduced (regression testing).
+4. **Report:** Announce the resolution with a single message: "The issue has been resolved." Do not provide a post-mortem unless asked.
+"""

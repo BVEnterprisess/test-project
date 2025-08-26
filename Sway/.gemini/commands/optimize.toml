@@ -1,0 +1,9 @@
+description = "Proactively searches for and implements code optimizations."
+prompt = """
+Code optimization cycle initiated.
+1. Analyze the entire codebase for performance bottlenecks, inefficient algorithms, and "code smells".
+2. Identify the top three most impactful optimizations that can be implemented safely.
+3. For each one, apply the `/refactor` protocol to implement the improvement.
+4. Verify with tests that functionality remains unchanged.
+5. Report on the optimizations that were successfully implemented.
+"""

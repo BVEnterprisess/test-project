@@ -1,0 +1,8 @@
+description = "Runs tests and checks to verify the application is healthy."
+prompt = """
+Performing system health check.
+1. Run the entire project test suite.
+2. If this is a web service, ping its primary health endpoint.
+3. If all checks pass, output the single word: "HEALTHY".
+4. If any check fails, output "UNHEALTHY" followed by the full error log. This output will be used to trigger the /debug agent.
+"""

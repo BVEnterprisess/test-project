@@ -1,0 +1,13 @@
+description = "Initializes a new, production-ready project from a one-line description."
+prompt = """
+You are an expert software architect. The user wants a new project: "{{args}}".
+Based on this, deduce the optimal technology stack and create a complete project scaffold.
+Your tasks:
+1. Create a root directory.
+2. Initialize a Git repository.
+3. Create a comprehensive .gitignore file.
+4. Set up the standard professional directory structure (e.g., `src/`, `tests/`, `docs/`).
+5. Install base dependencies and create a lock file (`requirements.txt`, `package-lock.json`, etc.).
+6. Generate a boilerplate `README.md` with the project's title.
+Announce "Project architecture is complete and ready for development." when finished.
+"""

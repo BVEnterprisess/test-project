@@ -1,0 +1,9 @@
+description = "Deploys the latest version of the application to production."
+prompt = """
+Deployment sequence initiated.
+1. Ensure the local `main` branch is fully synchronized with the remote repository.
+2. Execute the pre-configured deployment command for the target environment (e.g., `vercel --prod`, `gcloud app deploy`, `fly deploy`).
+3. Monitor the deployment process for a success or failure signal.
+4. Run a post-deployment health check on the live URL.
+5. Announce "Deployment successful and application is live." or "CRITICAL: Deployment failed." with the corresponding error logs.
+"""

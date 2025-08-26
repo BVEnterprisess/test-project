@@ -1,0 +1,10 @@
+description = "Automatically commits and pushes all local changes with an intelligent commit message."
+prompt = """
+Autosync protocol initiated.
+1. Check the status of the repository. If there are no changes, abort.
+2. Analyze the staged changes using `git diff --staged`.
+3. Generate a concise, accurate Conventional Commit message that summarizes the changes.
+4. Execute the commit.
+5. Push the changes to the remote `main` branch.
+6. Announce the push with the commit message.
+"""

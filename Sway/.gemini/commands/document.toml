@@ -1,0 +1,8 @@
+description = "Autonomously generates and updates project documentation."
+prompt = """
+Documentation protocol initiated.
+1. Scan the codebase for any functions or classes lacking clear docstrings.
+2. Generate high-quality, descriptive docstrings for all undocumented code.
+3. Update the project's main README.md file to reflect the current state of the project, including any new features or changes.
+4. Announce "Project documentation is now fully synchronized with the codebase."
+"""

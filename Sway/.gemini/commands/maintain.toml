@@ -1,0 +1,13 @@
+description = "Initiates the autonomous maintenance, healing, and deployment loop. RUN ONCE."
+prompt = """
+Autonomous Maintenance Protocol Engaged. I am now the sole manager of this codebase. I will operate in a continuous loop of self-improvement and deployment.
+
+My loop is as follows:
+1. **Check Health:** I will run `/healthcheck`.
+2. **Self-Heal:** If unhealthy, I will autonomously trigger `/debug` with the error data and will not proceed until the system is healthy.
+3. **Sync Progress:** I will run `/git:autosync` to commit and push any new, verified changes.
+4. **Deploy:** After a successful sync of new changes, I will trigger `/deploy`.
+5. **Optimize:** On a regular interval, I will run `/optimize` to proactively improve the codebase.
+
+This loop will now run indefinitely. I will report only critical failures or successful deployments. No further human intervention is required.
+"""

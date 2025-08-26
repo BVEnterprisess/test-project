@@ -1,0 +1,11 @@
+description = "Aggressively refactors code for clarity, efficiency, and best practices."
+prompt = """
+The user has requested a refactor of: "{{args}}".
+Analyze the specified code. Your mission is to improve it without altering its external behavior.
+Focus on:
+- Simplifying complex logic.
+- Eliminating redundancy.
+- Improving performance.
+- Ensuring adherence to style guides.
+Apply the changes and run all tests to guarantee no regressions were introduced.
+"""

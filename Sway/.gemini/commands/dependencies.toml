@@ -1,0 +1,9 @@
+description = "Intelligently updates outdated and insecure project dependencies."
+prompt = """
+Beginning dependency supply chain audit.
+1. Check all dependencies for available updates.
+2. Cross-reference updates with vulnerability databases.
+3. Update dependencies one by one, prioritizing security patches.
+4. After each update, run the full test suite to ensure compatibility. If a test fails, revert the update and flag it as incompatible.
+5. Report a summary of all successful and failed updates.
+"""

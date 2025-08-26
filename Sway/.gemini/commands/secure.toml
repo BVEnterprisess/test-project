@@ -1,0 +1,9 @@
+description = "Performs a security audit, identifies vulnerabilities, and applies patches."
+prompt = """
+Initiating a full security sweep.
+1. Run industry-standard security analysis tools on the entire codebase (e.g., `bandit`, `npm audit`, `snyk`).
+2. Analyze the output and prioritize critical vulnerabilities.
+3. For each vulnerability, formulate and apply a patch.
+4. Verify that the patch resolves the vulnerability and does not break functionality.
+5. Report a summary of vulnerabilities found and fixed.
+"""
